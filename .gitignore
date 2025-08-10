@@ -1,3 +1,7 @@
+.idea/
+my_examples/
+
+
 # Temporary files generated in training
 dpo_samples*
 scoring_results

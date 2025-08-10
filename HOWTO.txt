@@ -1,0 +1,12 @@
+# Old generation command, to generate from a base model.
+
+python examples/generation.py \
+  --model_path bosonai/higgs-audio-v2-generation-3B-base \
+  --audio_tokenizer bosonai/higgs-audio-v2-tokenizer \
+  --transcript examples/transcript/single_speaker/de_test.txt \
+  --ref_audio ni3 \
+  --seed 7788 \
+  --out_path output.wav \
+  --device auto \
+  --use_static_kv_cache 0
+

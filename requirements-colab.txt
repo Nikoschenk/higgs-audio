@@ -1,0 +1,22 @@
+# Install PyTorch/torchvision/torchaudio separately with CUDA wheels (see cell below)
+transformers>=4.45.1,<4.47.0
+accelerate>=0.30
+safetensors==0.4.3
+tokenizers>=0.15
+
+descript-audio-codec
+librosa
+dacite
+boto3==1.35.36
+s3fs
+json_repair
+pandas
+pydantic<3
+vector_quantize_pytorch
+loguru
+pydub
+ruff==0.12.2
+omegaconf
+click
+langid
+jieba
